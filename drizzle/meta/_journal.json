@@ -1,0 +1,118 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1789005077342,
+      "tag": "0001_initial",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1789005077342,
+      "tag": "0002_add_pocket_zero_events",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1789005605710,
+      "tag": "0003_add_metrics_and_auditor",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1789006038273,
+      "tag": "0004_add_soul_and_composer",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1789006523145,
+      "tag": "0005_add_team_and_brain",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1789006886390,
+      "tag": "0006_add_dashboard_widget_configuration",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1789007640997,
+      "tag": "0007_add_investor_and_rna_pockets",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1789008153302,
+      "tag": "0008_add_clinical_and_solar_connect",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1789016046517,
+      "tag": "0009_add_pocket_workflows_nexus",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "6",
+      "when": 1789016641125,
+      "tag": "0010_add_identity_users_keys_and_team_projects",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "6",
+      "when": 1789017450687,
+      "tag": "0011_add_sentinel_alerting_rules",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "6",
+      "when": 1789018082989,
+      "tag": "0012_add_pocket_memory_knowledge_base",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "6",
+      "when": 1789018162178,
+      "tag": "0013_purge_verification_fixtures",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "6",
+      "when": 1789018851493,
+      "tag": "0014_purge_memory_verification_traces",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "6",
+      "when": 1789019156876,
+      "tag": "0015_add_pocket_vault_restore_log",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "6",
+      "when": 1789019253135,
+      "tag": "0016_purge_orphan_verification_event_stages",
+      "breakpoints": true
+    }
+  ]
+}
