@@ -1,0 +1,10 @@
+# Railway config for Seventeen Pockets v1.0.0
+# Deploy: railway.app → New Project → Deploy from GitHub repo → Goodwatch5/seventeen-pockets
+[build]
+builder = "dockerfile"
+dockerfilePath = "./Dockerfile"
+
+[deploy]
+healthcheckPath = "/health"
+healthcheckTimeout = 300
+restartPolicyType = "on_failure"
