@@ -1,0 +1,17 @@
+# Render Blueprint for Seventeen Pockets v1.0.0
+# One-click deploy: https://render.com/deploy?repo=https://github.com/Goodwatch5/seventeen-pockets
+services:
+  - type: web
+    name: seventeen-pockets
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_PATH
+        value: /app/data/app.db
+      - key: GITLAB_TOKEN
+        sync: false # set manually in the Render dashboard to enable Solar Connect live sync (needs read_api scope)
+      - key: SOLAR_SYNC_INTERVAL_MIN
+        value: "15"
