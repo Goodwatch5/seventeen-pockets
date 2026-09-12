@@ -1,0 +1,35 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Seventeen Pockets by ODell
+  structure:
+    - type: section
+      key: section-1
+      title: Seventeen Pockets by ODell
+      path: seventeen-pockets-by-odell
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: Docs
+          path: docs
+          default: true
+          content:
+            directory: ./seventeen-pockets-by-odell/docs
+        - type: space
+          key: space-3
+          title: "\"Odell Anderson - Project Universe\""
+          path: odell-anderson-project-universe
+          content:
+            directory: ./seventeen-pockets-by-odell/odell-anderson-project-universe
+    - type: section
+      key: section-2
+      title: Firstcane
+      path: firstcane
+      children:
+        - type: space
+          key: space-2
+          title: Firstcane
+          path: untitled
+          default: true
+          content:
+            directory: ./firstcane/untitled
