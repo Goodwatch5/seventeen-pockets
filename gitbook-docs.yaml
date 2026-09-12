@@ -4,8 +4,9 @@ site:
   structure:
     - type: section
       key: section-1
-      title: Seventeen Pockets by ODell
-      path: seventeen-pockets-by-odell
+      title: Seventeen Pockets
+      path: seventeen-pockets
+      description: ""
       default: true
       children:
         - type: space
